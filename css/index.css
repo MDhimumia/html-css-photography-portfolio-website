@@ -1,0 +1,78 @@
+    /* Basic setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playwrite FR Trad", cursive;
+}
+/* Navbar */
+Nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+.menu-items ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: rgb(248, 238, 238);
+    font-size: 20px;
+}
+Nav .main-logo a{
+    color: rgb(250, 246, 240);
+    font-size: 30px;
+}
+Nav .main-logo a b{
+     color: brown;
+}
+.Hero-container{
+    background-color: rgb(15, 12, 12);
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.Hero-container h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.Hero-container h1 b{
+    color: aquamarine;
+}
+/* Gallery */
+.Gallery-Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Gallery-Container img{
+    width: 350px;
+    border: 5px solid pink;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.Gallery-Container .Gallery-items{
+    margin: auto;
+}
+.Gallery-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Gallery-title h2 u{
+    color: skyblue;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
